@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: #c8e4ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+.card p {
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+    margin-top: 10px;
+}
+
+.inline-block-element {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+
+.element1 {
+    background-color: lightblue;
+}
+
+.element2 {
+    background-color: lightgreen;
+}
